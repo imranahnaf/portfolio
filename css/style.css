@@ -21,7 +21,7 @@ img {
   width: 100%;
 }
 .navbar .nav-content .navbar-nav .nav-item .nav-link {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 20px;
   text-transform: capitalize;
@@ -52,14 +52,14 @@ img {
 #banner-bg .banner-content .item-3 p {
   font-size: 20px;
   color: #222222;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   text-transform: capitalize;
   margin-bottom: 0 !important;
 }
 #banner-bg .banner-content .item-3 h3 {
   font-size: 102px;
   color: #222222;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 0 !important;
@@ -67,7 +67,7 @@ img {
 #banner-bg .banner-content .item-3 h2 {
   font-size: 85px;
   color: #222222;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 0 !important;
@@ -75,7 +75,7 @@ img {
 #banner-bg .banner-content .item-3 a {
   font-size: 16px;
   color: #d6c6b2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   line-height: 24px;
   text-transform: capitalize;
@@ -106,7 +106,7 @@ img {
 #about-bg .item-2 .about-text .about-head h4 {
   font-size: 32px;
   color: #222222;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
@@ -115,7 +115,7 @@ img {
 #about-bg .item-2 .about-text .about-details p {
   font-size: 14px;
   color: #222222;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
@@ -130,8 +130,8 @@ img {
 }
 #about-bg .item-2 .about-text .about-social .sub-head h5 {
   font-size: 24px;
-  color: 'Abril Fatface', cursive;
-  font-family: 'Abril Fatface', cursive;
+  color: "Abril Fatface", cursive;
+  font-family: "Abril Fatface", cursive;
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
@@ -158,7 +158,7 @@ img {
 #about-bg .item-2 .about-text .about-social .icon ul li:hover {
   background: #d6c6b2;
   -webkit-box-shadow: 3px 3px 5px #d6c6b2;
-          box-shadow: 3px 3px 5px #d6c6b2;
+  box-shadow: 3px 3px 5px #d6c6b2;
 }
 #about-bg .item-2 .about-text .about-social .icon ul li a {
   color: #222222;
@@ -184,7 +184,7 @@ img {
   left: -100px;
   top: 50%;
   -webkit-transform: translate(50%);
-          transform: translate(50%);
+  transform: translate(50%);
 }
 #service-bg .nextarrow {
   width: 50px;
@@ -198,12 +198,12 @@ img {
   right: -100px;
   top: 50%;
   -webkit-transform: translate(50%);
-          transform: translate(50%);
+  transform: translate(50%);
 }
 #service-bg .service-head h4 {
   font-size: 32px;
   color: #222222;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
@@ -217,7 +217,7 @@ img {
 #service-bg .service-slider .item .sub-head h5 {
   font-size: 22px;
   color: #222222;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   line-height: 24px;
   text-transform: capitalize;
@@ -227,7 +227,7 @@ img {
 #service-bg .service-slider .item .box-details p {
   font-size: 14px;
   color: #222222;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
@@ -243,7 +243,7 @@ img {
 #portfolio-bg .filter-item .sub-head h5 {
   font-size: 32px;
   color: #222222;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   font-weight: 600;
   line-height: 24px;
   text-transform: capitalize;
@@ -251,14 +251,16 @@ img {
 }
 #portfolio-bg .filter-item .filtter-section ul {
   padding-left: 0 !important;
+  padding-top: 60px;
 }
 #portfolio-bg .filter-item .filtter-section ul li {
   font-size: 20px;
   color: #222222;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 64px;
   text-transform: capitalize;
+  cursor: pointer;
 }
 #portfolio-bg .item-1 {
   margin-bottom: 30px;
@@ -286,11 +288,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 #portfolio-bg .item .overlay .text {
   text-align: center;
@@ -312,7 +314,7 @@ img {
 #portfolio-bg .item .overlay .text p {
   font-size: 22px;
   color: #222222;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   line-height: 24px;
   text-transform: capitalize;
@@ -326,3 +328,30 @@ img {
   padding-top: 20px;
 }
 /* =====***** portfolio section css ends *****===== */
+/* =====***** testimonials section css starts *****===== */
+#testimonials-bg {
+  background: url(../images/testimonials-bg.png) no-repeat center / cover;
+  position: relative;
+  z-index: -1;
+}
+#testimonials-bg::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+#testimonials-bg .testimonials-head h4 {
+  font-size: 32px;
+  color: #d6c6b2;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-bottom: 60px;
+}
+/* =====***** testimonials section css ends *****===== */

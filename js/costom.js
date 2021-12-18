@@ -19,7 +19,6 @@ $(function () {
                 slidesToShow: 3,
                 infinite: true
             }
-
         },]
         // responsive ends
     });
