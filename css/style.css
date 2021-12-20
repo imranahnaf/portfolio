@@ -21,7 +21,7 @@ img {
   width: 100%;
 }
 .navbar .nav-content .navbar-nav .nav-item .nav-link {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 20px;
   text-transform: capitalize;
@@ -38,7 +38,6 @@ img {
 /* =====***** banner section css starts *****===== */
 #banner-bg {
   background: #e6eef0;
-  padding-bottom: 90px;
 }
 #banner-bg .banner-content {
   position: relative;
@@ -52,14 +51,14 @@ img {
 #banner-bg .banner-content .item-3 p {
   font-size: 20px;
   color: #222222;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   text-transform: capitalize;
   margin-bottom: 0 !important;
 }
 #banner-bg .banner-content .item-3 h3 {
   font-size: 102px;
   color: #222222;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 0 !important;
@@ -67,7 +66,7 @@ img {
 #banner-bg .banner-content .item-3 h2 {
   font-size: 85px;
   color: #222222;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 0 !important;
@@ -75,7 +74,7 @@ img {
 #banner-bg .banner-content .item-3 a {
   font-size: 16px;
   color: #d6c6b2;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   line-height: 24px;
   text-transform: capitalize;
@@ -98,7 +97,7 @@ img {
 /* =====***** banner section css ends *****===== */
 /* =====***** about section css starts *****===== */
 #about-bg {
-  padding-top: 200px;
+  padding-top: 150px;
 }
 #about-bg .item-2 .about-text {
   padding-top: 25px;
@@ -106,7 +105,7 @@ img {
 #about-bg .item-2 .about-text .about-head h4 {
   font-size: 32px;
   color: #222222;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
@@ -115,7 +114,7 @@ img {
 #about-bg .item-2 .about-text .about-details p {
   font-size: 14px;
   color: #222222;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
@@ -130,8 +129,8 @@ img {
 }
 #about-bg .item-2 .about-text .about-social .sub-head h5 {
   font-size: 24px;
-  color: "Abril Fatface", cursive;
-  font-family: "Abril Fatface", cursive;
+  color: 'Abril Fatface', cursive;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
@@ -158,7 +157,7 @@ img {
 #about-bg .item-2 .about-text .about-social .icon ul li:hover {
   background: #d6c6b2;
   -webkit-box-shadow: 3px 3px 5px #d6c6b2;
-  box-shadow: 3px 3px 5px #d6c6b2;
+          box-shadow: 3px 3px 5px #d6c6b2;
 }
 #about-bg .item-2 .about-text .about-social .icon ul li a {
   color: #222222;
@@ -169,41 +168,25 @@ img {
 #service-bg {
   background: #f8f8f8;
   padding-top: 50px;
-  padding-bottom: 150px;
+  padding-bottom: 120px;
   position: relative;
 }
 #service-bg .prevarrow {
-  width: 50px;
-  height: 50px;
-  border: 2px solid #d6c6b2;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 50px;
-  font-size: 32px;
+  font-size: 35px;
   position: absolute;
-  left: -100px;
-  top: 50%;
-  -webkit-transform: translate(50%);
-  transform: translate(50%);
+  left: 45%;
+  bottom: -70px;
 }
 #service-bg .nextarrow {
-  width: 50px;
-  height: 50px;
-  border: 2px solid #d6c6b2;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 50px;
-  font-size: 32px;
+  font-size: 35px;
   position: absolute;
-  right: -100px;
-  top: 50%;
-  -webkit-transform: translate(50%);
-  transform: translate(50%);
+  right: 45%;
+  bottom: -70px;
 }
 #service-bg .service-head h4 {
   font-size: 32px;
   color: #222222;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
@@ -217,7 +200,7 @@ img {
 #service-bg .service-slider .item .sub-head h5 {
   font-size: 22px;
   color: #222222;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   line-height: 24px;
   text-transform: capitalize;
@@ -227,7 +210,7 @@ img {
 #service-bg .service-slider .item .box-details p {
   font-size: 14px;
   color: #222222;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
@@ -243,7 +226,7 @@ img {
 #portfolio-bg .filter-item .sub-head h5 {
   font-size: 32px;
   color: #222222;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 600;
   line-height: 24px;
   text-transform: capitalize;
@@ -256,7 +239,7 @@ img {
 #portfolio-bg .filter-item .filtter-section ul li {
   font-size: 20px;
   color: #222222;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   line-height: 64px;
   text-transform: capitalize;
@@ -288,11 +271,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #portfolio-bg .item .overlay .text {
   text-align: center;
@@ -314,7 +297,7 @@ img {
 #portfolio-bg .item .overlay .text p {
   font-size: 22px;
   color: #222222;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   line-height: 24px;
   text-transform: capitalize;
@@ -327,31 +310,279 @@ img {
   font-size: 16px;
   padding-top: 20px;
 }
+#portfolio-bg .portfolio-footer a {
+  display: inline-block;
+  font-size: 14px;
+  color: #222222;
+  font-family: 'Open Sans', sans-serif;
+  background: #d6c6b2;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border: 2px solid white;
+  margin-top: 60px;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+#portfolio-bg .portfolio-footer a:hover {
+  border: 2px solid #d6c6b2;
+  background: transparent;
+}
 /* =====***** portfolio section css ends *****===== */
 /* =====***** testimonials section css starts *****===== */
 #testimonials-bg {
   background: url(../images/testimonials-bg.png) no-repeat center / cover;
+  padding: 60px 0px 150px 0px;
+  margin-top: 60px;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
-#testimonials-bg::after {
-  content: "";
+#testimonials-bg:after {
+  content: '';
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -2;
+  z-index: -1;
+}
+#testimonials-bg .prevarrow {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  left: 45%;
+  bottom: -70px;
+}
+#testimonials-bg .nextarrow {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  right: 45%;
+  bottom: -70px;
+}
+#testimonials-bg .slick-dots {
+  position: absolute;
+  left: 50%;
+  bottom: -100px;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0 !important;
+}
+#testimonials-bg .slick-dots li {
+  margin-right: 18px;
+}
+#testimonials-bg .slick-dots li button {
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+#testimonials-bg .slick-dots li.slick-active {
+  border-radius: 50%;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: #d6c6b2;
 }
 #testimonials-bg .testimonials-head h4 {
   font-size: 32px;
   color: #d6c6b2;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
   margin-bottom: 0 !important;
   padding-bottom: 60px;
 }
+#testimonials-bg .item .box-details {
+  padding-left: 30px;
+}
+#testimonials-bg .item .box-details h5 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#testimonials-bg .item .box-details p:first-of-type {
+  font-size: 16px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#testimonials-bg .item .box-details p:last-of-type {
+  font-size: 16px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#testimonials-bg .item .box-details ul li {
+  color: white;
+  font-size: 18px;
+  padding: 5px 5px 0 0;
+}
 /* =====***** testimonials section css ends *****===== */
+/* =====***** pricing section css starts *****===== */
+#pricing-bg {
+  margin-top: 100px;
+}
+#pricing-bg .pricing-head h4 {
+  font-size: 32px;
+  color: #222222;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-bottom: 60px;
+}
+#pricing-bg .item {
+  background: #f1f1f1;
+  text-align: center;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+#pricing-bg .item:hover {
+  background: #d6c6b2;
+}
+#pricing-bg .item:hover .box-footer a {
+  -webkit-box-shadow: 0px 0px 5px #f3ac29;
+          box-shadow: 0px 0px 5px #f3ac29;
+}
+#pricing-bg .item .box-head h5 {
+  font-size: 18px;
+  color: #222222;
+  background: #dddd;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding: 10px 0;
+}
+#pricing-bg .item .box-details {
+  margin-top: 20px;
+}
+#pricing-bg .item .box-details p {
+  font-size: 60px;
+  color: #222222;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-top: 20px;
+  position: relative;
+}
+#pricing-bg .item .box-details p span {
+  font-size: 24px;
+}
+#pricing-bg .item .box-details p:after {
+  content: '';
+  width: 170px;
+  height: 2px;
+  background: #d6c6b2;
+  position: absolute;
+  top: 85px;
+  left: 40px;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+#pricing-bg .item .box-details ul {
+  padding-left: 0;
+  padding-top: 48px;
+}
+#pricing-bg .item .box-details ul li {
+  font-size: 14px;
+  color: #222222;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+}
+#pricing-bg .item .box-footer a {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 18px;
+  color: #222222;
+  border: 1px solid #222222;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+/* =====***** pricing section css ends *****===== */
+/* =====***** blog section css starts *****===== */
+#blog-bg {
+  background: #f1f1f1;
+  margin-top: 100px;
+  padding: 60px 0px;
+}
+#blog-bg .blog-head h4 {
+  font-size: 32px;
+  color: #222222;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-bottom: 60px;
+}
+#blog-bg .item-1 {
+  margin-bottom: 20px;
+}
+#blog-bg .blog-item {
+  background: #dddddd;
+}
+#blog-bg .blog-item .img-area {
+  position: relative;
+  overflow: hidden;
+}
+#blog-bg .blog-item .img-area:hover .overlay {
+  top: 0;
+}
+#blog-bg .blog-item .img-area .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(214, 198, 178, 0.7);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  text-align: right;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+#blog-bg .blog-item .img-area .overlay p {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+  padding-right: 20px;
+}
+#blog-bg .blog-item .text-area {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+#blog-bg .blog-item .text-area i {
+  font-size: 24px;
+  color: black;
+}
+#blog-bg .blog-item .text-area p {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  width: 100px;
+}
+/* =====***** blog section css ends *****===== */

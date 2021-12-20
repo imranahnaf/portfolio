@@ -56,7 +56,6 @@ img {
 /* =====***** banner section css starts *****===== */
 #banner-bg {
     background: #e6eef0;
-    padding-bottom: 90px;
     .banner-content {
         position: relative;
         .item-3 {
@@ -118,7 +117,7 @@ img {
 
 /* =====***** about section css starts *****===== */
 #about-bg {
-    padding-top: 200px;
+    padding-top: 150px;
     .item-2 {
         .about-text {
             padding-top: 25px;
@@ -198,33 +197,19 @@ img {
 #service-bg {
     background: #f8f8f8;
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
     position: relative;
     .prevarrow {
-        width: 50px;
-        height: 50px;
-        border: 2px solid @hovercolor;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 50px;
-        font-size: 32px;
+        font-size: 35px;
         position: absolute;
-        left: -100px;
-        top: 50%;
-        transform: translate(50%);
+        left: 45%;
+        bottom: -70px;
     }
     .nextarrow {
-        width: 50px;
-        height: 50px;
-        border: 2px solid @hovercolor;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 50px;
-        font-size: 32px;
+        font-size: 35px;
         position: absolute;
-        right: -100px;
-        top: 50%;
-        transform: translate(50%);
+        right: 45%;
+        bottom: -70px;
     }
     .service-head {
         h4 {
@@ -366,6 +351,26 @@ img {
             }
         }
     }
+    .portfolio-footer {
+        a {
+            display: inline-block;
+            font-size: 14px;
+            color: @black;
+            font-family: @opensans;
+            background: @hovercolor;
+            font-weight: 600;
+            line-height: 24px;
+            text-transform: capitalize;
+            padding: 10px 20px;
+            border: 2px solid white;
+            margin-top: 60px;
+            transition: all linear 0.5s;
+            &:hover {
+                border: 2px solid @hovercolor;
+                background: transparent;
+            }
+        }
+    }
 }
 /* =====***** portfolio section css ends *****===== */
 
@@ -373,17 +378,53 @@ img {
 /* =====***** testimonials section css starts *****===== */
 #testimonials-bg {
     background: url(../images/testimonials-bg.png) no-repeat center/cover;
+    padding: 60px 0px 150px 0px;
+    margin-top: 60px;
     position: relative;
-    z-index: -1;
-    &::after {
-        content:'';
+    z-index: 1;
+    &:after {
+        content: '';
         width: 100%;
         height: 100%;
         background: rgba(0,0,0, 70%);
         position: absolute;
         top: 0;
         left: 0;
-        z-index: -2;
+        z-index: -1;}
+        .prevarrow {
+            font-size: 35px;
+            color: white;
+            position: absolute;
+            left: 45%;
+            bottom: -70px;
+        }
+
+        .nextarrow {
+            font-size: 35px;
+            color: white;
+            position: absolute;
+            right: 45%;
+            bottom: -70px;
+        }
+    .slick-dots {
+        position: absolute;
+        left: 50%;
+        bottom: -100px;
+        transform: translateY(50%);
+        display: flex;
+        padding-left: 0 !important;
+        li {
+            margin-right: 18px;
+            button {
+                padding: 5px 12px;
+                border-radius: 50%;
+            }
+            &.slick-active {
+                border-radius: 50%;
+                transform: scale(1.5);
+                background-color: @hovercolor
+            }
+        }
     }
     .testimonials-head {
         h4 {
@@ -397,5 +438,211 @@ img {
             padding-bottom: 60px;
         }
     }
+    .item {
+        .box-details {
+            padding-left: 30px;
+            h5 {
+                font-size: 20px;
+                color: white;
+                font-family: @opensans;
+                font-weight: 700;
+                line-height: 24px;
+                text-transform: capitalize;
+                margin-bottom: 0 !important;
+            }
+            p {
+                &:first-of-type {
+                    font-size: 16px;
+                    color: white;
+                    font-family: @opensans;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-transform: capitalize;
+                    margin-bottom: 0 !important;
+                }
+                &:last-of-type {
+                    font-size: 16px;
+                    color: white;
+                    font-family: @opensans;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-transform: capitalize;
+                    margin-bottom: 0 !important;
+                }
+            }
+            ul {
+                li {
+                    color: white;
+                    font-size: 18px;
+                    padding: 5px 5px 0 0;
+                    
+                }
+            }
+        }
+    }
 }
 /* =====***** testimonials section css ends *****===== */
+
+/* =====***** pricing section css starts *****===== */
+#pricing-bg {
+    margin-top: 100px;
+    .pricing-head {
+        h4 {
+            font-size: 32px;
+            color: @black;
+            font-family: @abril;
+            font-weight: 400;
+            line-height: 24px;
+            text-transform: capitalize;
+            margin-bottom: 0 !important;
+            padding-bottom: 60px;
+        }
+    }
+    .item {
+        background: #f1f1f1;
+        text-align: center;
+        transition: all linear 0.5s;
+        &:hover {
+            background: @hovercolor;
+            .box-footer {
+                a {
+                    box-shadow: 0px 0px 5px rgb(243, 172, 41);
+                }
+            }
+        }
+        .box-head {
+            h5 {
+                 font-size: 18px;
+                 color: @black;
+                 background: #dddd;
+                 font-family: @opensans;
+                 font-weight: 600;
+                 line-height: 24px;
+                 text-transform: capitalize;
+                 margin-bottom: 0 !important;
+                 padding: 10px 0;
+            }
+        }
+        .box-details {
+            margin-top: 20px;
+            p {
+                font-size: 60px;
+                color: @black;
+                font-family: @opensans;
+                font-weight: 700;
+                line-height: 40px;
+                text-transform: capitalize;
+                margin-bottom: 0 !important;
+                padding-top: 20px;
+                span {
+                    font-size: 24px;
+                }
+                position: relative;
+                &:after {
+                    content: '';
+                    width: 170px;
+                    height: 2px;
+                    background: @hovercolor;
+                    position: absolute;
+                    top: 85px;
+                    left: 40px;
+                    transform: translateX(50%);
+                }
+            }
+            ul {
+                padding-left: 0;
+                padding-top: 48px;
+                li {
+                    font-size: 14px;
+                    color: @black;
+                    font-family: @opensans;
+                    font-weight: 400;
+                    line-height: 40px;
+                }
+            }
+        }
+        .box-footer {
+            a {
+                display: inline-block;
+                padding: 5px 20px;
+                font-size: 18px;
+                color: @black;
+                border: 1px solid @black;
+                font-family: @opensans;
+                font-weight: 600;
+                line-height: 40px;
+                text-transform: capitalize;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+/* =====***** pricing section css ends *****===== */
+
+/* =====***** blog section css starts *****===== */
+#blog-bg {
+    background: #f1f1f1;
+    margin-top: 100px;
+    padding: 60px 0px;
+    .blog-head {
+        h4 {
+            font-size: 32px;
+            color: @black;
+            font-family: @abril;
+            font-weight: 400;
+            line-height: 24px;
+            text-transform: capitalize;
+            margin-bottom: 0 !important;
+            padding-bottom: 60px;
+        }
+    }
+    .item-1 {
+        margin-bottom: 20px;
+    }
+    .blog-item {
+        background: #dddddd;
+        .img-area {
+            position: relative;
+            overflow: hidden;
+            &:hover {
+                .overlay {
+                    top: 0;
+                }
+            }
+            .overlay {
+                width: 100%;
+                height: 100%;
+                background: rgba(214, 198, 178, 70%);
+                position: absolute;
+                top: -100%;
+                left: 0;
+                text-align: right;
+                transition: all linear 0.5s;
+                p {
+                    font-size: 24px;
+                    font-family: @opensans;
+                    font-weight: 600;
+                    line-height: 24px;
+                    color: white;
+                    padding-right: 20px;
+                }
+            }
+        }
+        .text-area {
+            padding-left: 30px;
+            padding-top: 30px;
+            i {
+                font-size: 24px;
+                color: black;
+            }
+            p {
+                font-size: 14px;
+                font-family: @opensans;
+                font-weight: 400;
+                line-height: 24px;
+                width: 100px;
+            }
+        }
+    }
+}
+/* =====***** blog section css ends *****===== */
