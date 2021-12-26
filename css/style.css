@@ -52,6 +52,11 @@
                 -ms-border-radius: 5px;
                 -o-border-radius: 5px;
             }
+            
+            .navbar .navbar-toggler {
+                border-color: black !important;
+                background: white;
+            }
             /* =====***** navbar section css ends *****===== */
             /* =====***** banner section css starts *****===== */
             
@@ -891,13 +896,13 @@
             
             #footer-bg form .text-btn {
                 width: 48%;
-                margin-right: 2%;
                 line-height: 30px;
             }
             
             #footer-bg form .email-btn {
                 width: 48%;
                 line-height: 30px;
+                margin-left: 2%;
             }
             
             #footer-bg form .textarea {

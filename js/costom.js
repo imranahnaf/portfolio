@@ -90,5 +90,11 @@ $(function() {
             ]
             // responsive ends
     });
-    // =====***** restimonials slick js ends *****===== //
+    // =====***** testimonials slick js ends *****===== //
+
+    // =====***** mixitup starts *****====== //
+    // AMD
+
+    require(['mixitup'], function(mixitup) {});
+    // =====***** mixitup ends *****====== //
 });
