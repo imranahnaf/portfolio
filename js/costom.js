@@ -93,8 +93,6 @@ $(function() {
     // =====***** testimonials slick js ends *****===== //
 
     // =====***** mixitup starts *****====== //
-    // AMD
-
-    require(['mixitup'], function(mixitup) {});
+    var mixer = mixitup('.img-section');
     // =====***** mixitup ends *****====== //
 });

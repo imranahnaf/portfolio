@@ -44,18 +44,12 @@
             
             .navbar .navbar-toggler {
                 border-color: black !important;
-                background: white;
                 border: 3px solid black;
                 border-radius: 5px;
                 -webkit-border-radius: 5px;
                 -moz-border-radius: 5px;
                 -ms-border-radius: 5px;
                 -o-border-radius: 5px;
-            }
-            
-            .navbar .navbar-toggler {
-                border-color: black !important;
-                background: white;
             }
             /* =====***** navbar section css ends *****===== */
             /* =====***** banner section css starts *****===== */
@@ -287,14 +281,15 @@
                 margin-bottom: 0 !important;
             }
             
-            #portfolio-bg .filter-item .filtter-section ul {
+            #portfolio-bg .filter-item .filter-menu ul {
                 padding-left: 0 !important;
                 padding-top: 60px;
             }
             
-            #portfolio-bg .filter-item .filtter-section ul li {
+            #portfolio-bg .filter-item .filter-menu ul li button {
                 font-size: 20px;
                 color: #222222;
+                text-transform: capitalize;
                 font-family: "Open Sans", sans-serif;
                 font-weight: 600;
                 line-height: 64px;
@@ -313,6 +308,7 @@
             #portfolio-bg .item {
                 position: relative;
                 overflow: hidden;
+                margin-bottom: 20px;
             }
             
             #portfolio-bg .item:hover .overlay {
