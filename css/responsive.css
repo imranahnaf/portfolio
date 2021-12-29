@@ -89,11 +89,21 @@
     }
     /* ===== service responsive ends ===== */
     /* ===== portfoli responsive starts ===== */
-    .portfolio-bg .portfolio-image {
+    .portfolio-bg .portfolio-img {
         order: -1 !important;
     }
     .portfolio-bg .filter-menu {
-        order: 1 !important;
+        order: -2 !important;
+    }
+    #portfolio-bg .filter-menu ul {
+        padding-top: 20px !important;
+        padding-bottom: 10px !important;
+        flex-direction: row-reverse !important;
+        display: flex !important;
+    }
+    #portfolio-bg .filter-menu ul li button {
+        font-size: 18px !important;
+        line-height: 24px !important;
     }
     #portfolio-bg .item .overlay .text a i {
         margin-top: 80px !important;
@@ -118,6 +128,9 @@
         font-size: 30px !important;
         right: 30% !important;
         bottom: -50px !important;
+    }
+    #testimonials-bg .item .box-details {
+        padding: 0 !important;
     }
     #testimonials-bg .testimonials-head h4 {
         text-align: center !important;
