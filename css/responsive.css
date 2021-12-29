@@ -88,6 +88,23 @@
         padding-bottom: 16px !important;
     }
     /* ===== service responsive ends ===== */
+    /* ===== portfoli responsive starts ===== */
+    .portfolio-bg .portfolio-image {
+        order: -1 !important;
+    }
+    .portfolio-bg .filter-menu {
+        order: 1 !important;
+    }
+    #portfolio-bg .item .overlay .text a i {
+        margin-top: 80px !important;
+    }
+    #portfolio-bg .item .overlay .text p {
+        padding-top: 70px !important;
+    }
+    #portfolio-bg .item .overlay .text p:last-of-type {
+        padding-top: 10px !important;
+    }
+    /* ===== portfoli responsive ends ===== */
     /* ===== testimonials responsive starts ===== */
     #testimonials-bg {
         padding-bottom: 100px !important;

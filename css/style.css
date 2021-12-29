@@ -271,7 +271,7 @@
                 margin-top: 100px;
             }
             
-            #portfolio-bg .filter-item .sub-head h5 {
+            #portfolio-bg .filter-menu .sub-head h5 {
                 font-size: 32px;
                 color: #222222;
                 font-family: "Abril Fatface", cursive;
@@ -281,28 +281,24 @@
                 margin-bottom: 0 !important;
             }
             
-            #portfolio-bg .filter-item .filter-menu ul {
+            #portfolio-bg .filter-menu ul {
                 padding-left: 0 !important;
-                padding-top: 60px;
+                padding-top: 50px;
             }
             
-            #portfolio-bg .filter-item .filter-menu ul li button {
+            #portfolio-bg .filter-menu ul li button {
                 font-size: 20px;
                 color: #222222;
                 text-transform: capitalize;
                 font-family: "Open Sans", sans-serif;
                 font-weight: 600;
-                line-height: 64px;
+                line-height: 60px;
                 text-transform: capitalize;
                 cursor: pointer;
             }
             
-            #portfolio-bg .item-1 {
-                margin-bottom: 30px;
-            }
-            
-            #portfolio-bg .item-2 {
-                margin-bottom: 30px;
+            #portfolio-bg .filter-menu ul li button.active {
+                background: #d6c6b2 !important;
             }
             
             #portfolio-bg .item {
@@ -320,7 +316,7 @@
                 height: 100%;
                 background: rgba(218, 188, 172, 0.85);
                 position: absolute;
-                top: 0;
+                top: -100%;
                 left: 0;
                 -webkit-transition: all linear 0.5s;
                 transition: all linear 0.5s;
@@ -363,9 +359,6 @@
                 line-height: 24px;
                 text-transform: capitalize;
                 margin-bottom: 0 !important;
-            }
-            
-            #portfolio-bg .item .overlay .text p:first-of-type {
                 padding-top: 125px;
             }
             
@@ -893,12 +886,12 @@
             #footer-bg form .text-btn {
                 width: 48%;
                 line-height: 30px;
+                margin-right: 2%;
             }
             
             #footer-bg form .email-btn {
                 width: 48%;
                 line-height: 30px;
-                margin-left: 2%;
             }
             
             #footer-bg form .textarea {
