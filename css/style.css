@@ -290,7 +290,7 @@
             #portfolio-bg .filter-menu ul {
                 padding-left: 0 !important;
                 padding-top: 50px;
-                flex-direction: column !important;
+                margin-right: 0 !important;
             }
             
             #portfolio-bg .filter-menu ul li button {
@@ -301,6 +301,11 @@
                 font-weight: 600;
                 line-height: 60px;
                 text-transform: capitalize;
+                border-radius: 3px !important;
+                -webkit-border-radius: 3px !important;
+                -moz-border-radius: 3px !important;
+                -ms-border-radius: 3px !important;
+                -o-border-radius: 3px !important;
             }
             
             #portfolio-bg .filter-menu ul li button.active {
@@ -395,14 +400,6 @@
             #portfolio-bg .portfolio-footer a:hover {
                 border: 2px solid #d6c6b2;
                 background: transparent;
-            }
-            
-            .portfolio-bg .col-lg-8 {
-                order: -3 !important;
-            }
-            
-            .portfolio-bg .col-lg-3 {
-                order: 1 !important;
             }
             /* =====***** portfolio section css ends *****===== */
             /* =====***** testimonials section css starts *****===== */
