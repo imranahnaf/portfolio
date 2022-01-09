@@ -1,969 +1,768 @@
-            /* =====***** common css starts *****===== */
-            
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            
-            ul {
-                list-style: none;
-            }
-            
-            a {
-                text-decoration: none;
-            }
-            
-            img {
-                vertical-align: center;
-            }
-            /* =====***** common css ends *****===== */
-            /* =====***** navbar section css starts *****===== */
-            
-            .navbar {
-                position: absolute;
-                top: 30px;
-                z-index: 9999999999;
-                width: 100%;
-            }
-            
-            .navbar .nav-content .navbar-nav .nav-item .nav-link {
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                font-size: 20px;
-                text-transform: capitalize;
-                padding: 10px 15px;
-                color: #222;
-                -webkit-transition: all linear 0.5s;
-                transition: all linear 0.5s;
-            }
-            
-            .navbar .nav-content .navbar-nav .nav-item .nav-link:hover {
-                color: black;
-                background: #d6c6b2;
-            }
-            
-            .navbar .navbar-toggler {
-                border-color: black !important;
-                border: 3px solid black;
-                border-radius: 5px;
-                -webkit-border-radius: 5px;
-                -moz-border-radius: 5px;
-                -ms-border-radius: 5px;
-                -o-border-radius: 5px;
-            }
-            /* =====***** navbar section css ends *****===== */
-            /* =====***** banner section css starts *****===== */
-            
-            #banner-bg {
-                background: #e6eef0;
-            }
-            
-            #banner-bg .banner-content {
-                position: relative;
-            }
-            
-            #banner-bg .banner-content .item-3 {
-                text-align: right;
-                position: absolute;
-                top: 260px;
-                right: 300px;
-            }
-            
-            #banner-bg .banner-content .item-3 p {
-                font-size: 20px;
-                color: #222222;
-                font-family: "Abril Fatface", cursive;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-            }
-            
-            #banner-bg .banner-content .item-3 h3 {
-                font-size: 102px;
-                color: #222222;
-                font-family: "Abril Fatface", cursive;
-                font-weight: 400;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-            }
-            
-            #banner-bg .banner-content .item-3 h2 {
-                font-size: 85px;
-                color: #222222;
-                font-family: "Abril Fatface", cursive;
-                font-weight: 400;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-            }
-            
-            #banner-bg .banner-content .item-3 a {
-                font-size: 16px;
-                line-height: 24px;
-                color: #d6c6b2;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                text-transform: capitalize;
-                padding: 10px 20px;
-                border: 1px solid #d6c6b2;
-                margin-top: 40px;
-                display: inline-block;
-                transition: all linear 0.4s;
-                -webkit-transition: all linear 0.4s;
-                -moz-transition: all linear 0.4s;
-                -ms-transition: all linear 0.4s;
-                -o-transition: all linear 0.4s;
-            }
-            
-            #banner-bg .banner-content .item-3 a:hover {
-                background: #d6c6b2;
-                color: #222222;
-            }
-            
-            #banner-bg .banner-content .item-3 a:last-of-type {
-                margin-left: 30px;
-                padding: 10px 40px;
-            }
-            /* =====***** banner section css ends *****===== */
-            /* =====***** about section css starts *****===== */
-            
-            #about-bg {
-                padding-top: 150px;
-            }
-            
-            #about-bg .item-2 .about-text {
-                padding-top: 25px;
-            }
-            
-            #about-bg .item-2 .about-text .about-head h4 {
-                font-size: 32px;
-                color: #222222;
-                font-family: "Abril Fatface", cursive;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-            }
-            
-            #about-bg .item-2 .about-text .about-details p {
-                font-size: 14px;
-                color: #222222;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-            }
-            
-            #about-bg .item-2 .about-text .about-details p:first-of-type {
-                padding-top: 65px;
-            }
-            
-            #about-bg .item-2 .about-text .about-details p:last-of-type {
-                padding-top: 35px;
-                padding-bottom: 60px;
-            }
-            
-            #about-bg .item-2 .about-text .about-social .sub-head h5 {
-                font-size: 24px;
-                color: "Abril Fatface", cursive;
-                font-family: "Abril Fatface", cursive;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-            }
-            
-            #about-bg .item-2 .about-text .about-social .icon ul {
-                padding-left: 0 !important;
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                margin-top: 30px;
-            }
-            
-            #about-bg .item-2 .about-text .about-social .icon ul li {
-                width: 40px;
-                height: 40px;
-                border: 1px solid #353535;
-                border-radius: 50%;
-                text-align: center;
-                line-height: 40px;
-                margin-right: 20px;
-                transition: all linear 0.4s;
-                -webkit-transition: all linear 0.4s;
-                -moz-transition: all linear 0.4s;
-                -ms-transition: all linear 0.4s;
-                -o-transition: all linear 0.4s;
-            }
-            
-            #about-bg .item-2 .about-text .about-social .icon ul li:hover {
-                background: #d6c6b2;
-                -webkit-box-shadow: 3px 3px 5px #d6c6b2;
-                box-shadow: 3px 3px 5px #d6c6b2;
-            }
-            
-            #about-bg .item-2 .about-text .about-social .icon ul li a {
-                color: #222222;
-                font-size: 22px;
-            }
-            /* =====***** about section css ends *****===== */
-            /* =====***** service section css starts *****===== */
-            
-            #service-bg {
-                background: #f8f8f8;
-                padding-top: 50px;
-                padding-bottom: 120px;
-                position: relative;
-            }
-            
-            #service-bg .prevarrow {
-                font-size: 35px;
-                position: absolute;
-                left: 45%;
-                bottom: -70px;
-            }
-            
-            #service-bg .nextarrow {
-                font-size: 35px;
-                position: absolute;
-                right: 45%;
-                bottom: -70px;
-            }
-            
-            #service-bg .service-head h4 {
-                font-size: 32px;
-                color: #222222;
-                font-family: "Abril Fatface", cursive;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding-bottom: 60px;
-            }
-            
-            #service-bg .service-slider .item {
-                text-align: center;
-                margin-top: 50px;
-            }
-            
-            #service-bg .service-slider .item .box-img {
-                display: inline-block;
-            }
-            
-            #service-bg .service-slider .item .sub-head h5 {
-                font-size: 22px;
-                color: #222222;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding-top: 30px;
-                padding-bottom: 32px;
-            }
-            
-            #service-bg .service-slider .item .box-details p {
-                font-size: 14px;
-                color: #222222;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                padding: 0 20px;
-            }
-            /* =====***** service section css ends *****===== */
-            /* =====***** portfolio section css starts *****===== */
-            
-            #portfolio-bg {
-                margin-top: 100px;
-            }
-            
-            #portfolio-bg .filter-menu .sub-head h5 {
-                font-size: 32px;
-                color: #222222;
-                font-family: "Abril Fatface", cursive;
-                font-weight: 600;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-            }
-            
-            #portfolio-bg .filter-menu ul {
-                padding-left: 0 !important;
-                padding-top: 50px;
-                margin-right: 0 !important;
-            }
-            
-            #portfolio-bg .filter-menu ul li button {
-                font-size: 20px;
-                color: #222222;
-                text-transform: capitalize;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                line-height: 60px;
-                text-transform: capitalize;
-                border-radius: 3px !important;
-                -webkit-border-radius: 3px !important;
-                -moz-border-radius: 3px !important;
-                -ms-border-radius: 3px !important;
-                -o-border-radius: 3px !important;
-            }
-            
-            #portfolio-bg .filter-menu ul li button.active {
-                background: #d6c6b2 !important;
-            }
-            
-            #portfolio-bg .item {
-                position: relative;
-                overflow: hidden;
-                margin-bottom: 20px;
-            }
-            
-            #portfolio-bg .item:hover .overlay {
-                top: 0;
-            }
-            
-            #portfolio-bg .item .overlay {
-                width: 100%;
-                height: 100%;
-                background: rgba(218, 188, 172, 0.85);
-                position: absolute;
-                top: -100%;
-                left: 0;
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                justify-content: center;
-                -webkit-box-align: center;
-                -ms-flex-align: center;
-                align-items: center;
-                transition: all linear 0.4s;
-                -webkit-transition: all linear 0.4s;
-                -moz-transition: all linear 0.4s;
-                -ms-transition: all linear 0.4s;
-                -o-transition: all linear 0.4s;
-            }
-            
-            #portfolio-bg .item .overlay .text {
-                text-align: center;
-            }
-            
-            #portfolio-bg .item .overlay .text a {
-                font-size: 22px;
-                color: white;
-            }
-            
-            #portfolio-bg .item .overlay .text a i {
-                width: 50px;
-                height: 50px;
-                background: #222222;
-                border: 1px solid #353535;
-                border-radius: 50%;
-                text-align: center;
-                line-height: 50px;
-                margin-top: 150px;
-            }
-            
-            #portfolio-bg .item .overlay .text p {
-                font-size: 22px;
-                color: #222222;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding-top: 125px;
-            }
-            
-            #portfolio-bg .item .overlay .text p:last-of-type {
-                font-size: 16px;
-                padding-top: 20px;
-            }
-            
-            #portfolio-bg .portfolio-footer a {
-                display: inline-block;
-                font-size: 14px;
-                color: #222222;
-                font-family: "Open Sans", sans-serif;
-                background: #d6c6b2;
-                font-weight: 600;
-                line-height: 24px;
-                text-transform: capitalize;
-                padding: 10px 20px;
-                border: 2px solid white;
-                margin-top: 60px;
-                -webkit-transition: all linear 0.5s;
-                transition: all linear 0.5s;
-            }
-            
-            #portfolio-bg .portfolio-footer a:hover {
-                border: 2px solid #d6c6b2;
-                background: transparent;
-            }
-            /* =====***** portfolio section css ends *****===== */
-            /* =====***** testimonials section css starts *****===== */
-            
-            #testimonials-bg {
-                background: url(../images/testimonials-bg.png) no-repeat center / cover;
-                padding: 60px 0px 150px 0px;
-                margin-top: 60px;
-                position: relative;
-                z-index: 1;
-            }
-            
-            #testimonials-bg:after {
-                content: "";
-                width: 100%;
-                height: 100%;
-                background: rgba(0, 0, 0, 0.7);
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: -1;
-            }
-            
-            #testimonials-bg .prevarrow {
-                font-size: 35px;
-                color: white;
-                position: absolute;
-                left: 45%;
-                bottom: -70px;
-            }
-            
-            #testimonials-bg .nextarrow {
-                font-size: 35px;
-                color: white;
-                position: absolute;
-                right: 45%;
-                bottom: -70px;
-            }
-            
-            #testimonials-bg .slick-dots {
-                position: absolute;
-                left: 50%;
-                bottom: -100px;
-                -webkit-transform: translateY(50%);
-                transform: translateY(50%);
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                padding-left: 0 !important;
-            }
-            
-            #testimonials-bg .slick-dots li {
-                margin-right: 18px;
-            }
-            
-            #testimonials-bg .slick-dots li button {
-                padding: 5px 12px;
-                border-radius: 50%;
-            }
-            
-            #testimonials-bg .slick-dots li.slick-active {
-                border-radius: 50%;
-                -webkit-transform: scale(1.5);
-                transform: scale(1.5);
-                background-color: #d6c6b2;
-            }
-            
-            #testimonials-bg .testimonials-head h4 {
-                font-size: 64px;
-                color: #d6c6b2;
-                font-family: "Abril Fatface", cursive;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding-bottom: 60px;
-            }
-            
-            #testimonials-bg .testimonials-slider .item {
-                display: flex;
-            }
-            
-            #testimonials-bg .item .box-details {
-                padding: 0px 15px;
-            }
-            
-            #testimonials-bg .item .box-details h5 {
-                font-size: 20px;
-                color: white;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 700;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-            }
-            
-            #testimonials-bg .item .box-details p:first-of-type {
-                font-size: 16px;
-                color: white;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-            }
-            
-            #testimonials-bg .item .box-details p:last-of-type {
-                font-size: 16px;
-                color: white;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-            }
-            
-            #testimonials-bg .item .box-details ul li {
-                color: white;
-                font-size: 18px;
-                padding: 5px 5px 0 0;
-            }
-            /* =====***** testimonials section css ends *****===== */
-            /* =====***** pricing section css starts *****===== */
-            
-            #pricing-bg {
-                margin-top: 100px;
-            }
-            
-            #pricing-bg .pricing-head h4 {
-                font-size: 32px;
-                color: #222222;
-                font-family: "Abril Fatface", cursive;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding-bottom: 60px;
-            }
-            
-            #pricing-bg .item {
-                background: #f1f1f1;
-                text-align: center;
-                -webkit-transition: all linear 0.5s;
-                transition: all linear 0.5s;
-            }
-            
-            #pricing-bg .item:hover {
-                background: #d6c6b2;
-            }
-            
-            #pricing-bg .item:hover .box-footer a {
-                -webkit-box-shadow: 0px 0px 5px #f3ac29;
-                box-shadow: 0px 0px 5px #f3ac29;
-            }
-            
-            #pricing-bg .item .box-head h5 {
-                font-size: 18px;
-                color: #222222;
-                background: #dddd;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding: 10px 0;
-            }
-            
-            #pricing-bg .item .box-details {
-                margin-top: 20px;
-            }
-            
-            #pricing-bg .item .box-details p {
-                font-size: 60px;
-                color: #222222;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 700;
-                line-height: 40px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding-top: 20px;
-                position: relative;
-            }
-            
-            #pricing-bg .item .box-details p span {
-                font-size: 24px;
-            }
-            
-            #pricing-bg .item .box-details p:after {
-                content: "";
-                width: 170px;
-                height: 2px;
-                background: #d6c6b2;
-                position: absolute;
-                top: 85px;
-                left: 40px;
-                -webkit-transform: translateX(50%);
-                transform: translateX(50%);
-            }
-            
-            #pricing-bg .item .box-details ul {
-                padding-left: 0;
-                padding-top: 48px;
-            }
-            
-            #pricing-bg .item .box-details ul li {
-                font-size: 14px;
-                color: #222222;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 400;
-                line-height: 40px;
-            }
-            
-            #pricing-bg .item .box-footer a {
-                display: inline-block;
-                padding: 5px 20px;
-                font-size: 18px;
-                color: #222222;
-                border: 1px solid #222222;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                line-height: 40px;
-                text-transform: capitalize;
-                margin-bottom: 30px;
-            }
-            /* =====***** pricing section css ends *****===== */
-            /* =====***** blog section css starts *****===== */
-            
-            #blog-bg {
-                background: #f1f1f1;
-                margin-top: 100px;
-                padding: 60px 0px;
-            }
-            
-            #blog-bg .blog-head h4 {
-                font-size: 32px;
-                color: #222222;
-                font-family: "Abril Fatface", cursive;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding-bottom: 60px;
-            }
-            
-            #blog-bg .item-1 {
-                margin-bottom: 20px;
-                display: flex;
-            }
-            
-            #blog-bg .item-3 {
-                display: flex;
-            }
-            
-            #blog-bg .blog-item {
-                background: #dddddd;
-            }
-            
-            #blog-bg .blog-item:hover {
-                background: #d6c6b2;
-                -webkit-transition: all linear 0.5s;
-                transition: all linear 0.5s;
-            }
-            
-            #blog-bg .blog-item .img-area {
-                position: relative;
-                overflow: hidden;
-            }
-            
-            #blog-bg .blog-item .img-area img {
-                height: 270px;
-            }
-            
-            #blog-bg .blog-item .img-area:hover .overlay {
-                top: 0;
-            }
-            
-            #blog-bg .blog-item .img-area .overlay {
-                width: 100%;
-                height: 100%;
-                background: rgba(214, 198, 178, 0.7);
-                position: absolute;
-                top: -100%;
-                left: 0;
-                text-align: right;
-                transition: all linear 0.4s;
-                -webkit-transition: all linear 0.4s;
-                -moz-transition: all linear 0.4s;
-                -ms-transition: all linear 0.4s;
-                -o-transition: all linear 0.4s;
-            }
-            
-            #blog-bg .blog-item .img-area .overlay p {
-                font-size: 24px;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                line-height: 24px;
-                color: white;
-                padding-right: 20px;
-            }
-            
-            #blog-bg .blog-item .text-area {
-                padding-left: 30px;
-            }
-            
-            #blog-bg .blog-item .text-area .text-head {
-                padding-top: 30px;
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-            }
-            
-            #blog-bg .blog-item .text-area .text-head i {
-                font-size: 18px;
-                color: black;
-                line-height: 24px;
-            }
-            
-            #blog-bg .blog-item .text-area .text-head p {
-                font-size: 16px;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-            }
-            
-            #blog-bg .blog-item .text-area .text-head ul {
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                padding-left: 150px;
-            }
-            
-            #blog-bg .blog-item .text-area .text-head ul li {
-                font-size: 16px;
-                padding-right: 30px;
-                line-height: 24px;
-            }
-            
-            #blog-bg .blog-item .text-area .sub-head h5 {
-                font-size: 20px;
-                color: #222222;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding-right: 20px;
-                padding-bottom: 20px;
-            }
-            
-            #blog-bg .blog-item .text-area .sub-head p {
-                font-size: 14px;
-                color: #222222;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                padding-right: 20px;
-            }
-            
-            #blog-bg .blog-item .text-area .box-footer ul {
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                -webkit-box-pack: justify;
-                -ms-flex-pack: justify;
-                justify-content: space-between;
-            }
-            
-            #blog-bg .blog-item .text-area .box-footer ul li:first-of-type a {
-                font-size: 18px;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                line-height: 24px;
-                text-transform: capitalize;
-            }
-            
-            #blog-bg .blog-item .text-area .box-footer ul li:last-of-type a {
-                font-size: 16px;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                line-height: 24px;
-                text-transform: capitalize;
-                padding-right: 40px;
-            }
-            
-            #blog-bg .item-2 .text-area .text-head ul {
-                padding-left: 120px;
-                margin-bottom: 0 !important;
-            }
-            
-            #blog-bg .item-2 .box-footer ul {
-                padding-top: 20px;
-                padding-bottom: 20px;
-            }
-            
-            #blog-bg .blog-footer a {
-                display: inline-block;
-                font-size: 14px;
-                color: #222222;
-                font-family: "Open Sans", sans-serif;
-                background: #d6c6b2;
-                font-weight: 600;
-                line-height: 24px;
-                text-transform: capitalize;
-                padding: 10px 20px;
-                border: 2px solid #f1f1f1;
-                margin-top: 60px;
-                transition: all linear 0.5s;
-                -webkit-transition: all linear 0.5s;
-                -moz-transition: all linear 0.5s;
-                -ms-transition: all linear 0.5s;
-                -o-transition: all linear 0.5s;
-            }
-            
-            #blog-bg .blog-footer a:hover {
-                border: 2px solid #d6c6b2;
-                background: transparent;
-            }
-            /* =====***** blog section css ends *****===== */
-            /* =====***** footer section css starts *****===== */
-            
-            #footer-bg {
-                margin-top: 95px;
-            }
-            
-            #footer-bg .footer-item .box-head h5 {
-                font-size: 20px;
-                color: #222222;
-                font-family: "Abril Fatface", cursive;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding-bottom: 35px;
-            }
-            
-            #footer-bg .footer-item ul {
-                padding-left: 0 !important;
-            }
-            
-            #footer-bg .footer-item ul:first-of-type li {
-                padding-bottom: 10px;
-            }
-            
-            #footer-bg .footer-item ul:last-of-type {
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-            }
-            
-            #footer-bg .footer-item ul:last-of-type li {
-                margin-right: 10px;
-                width: 50px;
-                height: 50px;
-                border: 1px solid #d6c6b2;
-                border-radius: 50%;
-                text-align: center;
-                line-height: 50px;
-                transition: all linear 0.5s;
-                -webkit-transition: all linear 0.5s;
-                -moz-transition: all linear 0.5s;
-                -ms-transition: all linear 0.5s;
-                -o-transition: all linear 0.5s;
-            }
-            
-            #footer-bg .footer-item ul:last-of-type li:hover {
-                background: #d6c6b2;
-            }
-            
-            #footer-bg .footer-item ul:last-of-type li:hover a {
-                color: white;
-            }
-            
-            #footer-bg .footer-item ul:last-of-type li a {
-                color: #222222;
-                transition: all linear 0.5s;
-                -webkit-transition: all linear 0.5s;
-                -moz-transition: all linear 0.5s;
-                -ms-transition: all linear 0.5s;
-                -o-transition: all linear 0.5s;
-            }
-            
-            #footer-bg .footer-item .sub-head h5 {
-                font-size: 20px;
-                color: #222222;
-                font-family: "Abril Fatface", cursive;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding-top: 65px;
-                padding-bottom: 30px;
-            }
-            
-            #footer-bg form {
-                background: #f1f1f1;
-                position: relative;
-                padding-left: 25px;
-                padding-right: 25px;
-                padding-bottom: 30px;
-            }
-            
-            #footer-bg form p {
-                font-size: 20px;
-                line-height: 24px;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 600;
-                text-transform: capitalize;
-                color: #222222;
-                padding: 30px 0;
-            }
-            
-            #footer-bg form .text-btn {
-                width: 48%;
-                line-height: 30px;
-                margin-right: 2%;
-            }
-            
-            #footer-bg form .email-btn {
-                width: 48%;
-                line-height: 30px;
-            }
-            
-            #footer-bg form .textarea {
-                margin-top: 30px;
-                width: 100%;
-                height: 150px;
-                padding: 10px 0 0 10px;
-                text-transform: capitalize;
-            }
-            
-            #footer-bg form .submit-btn {
-                width: 60px;
-                height: 60px;
-                text-align: right;
-                padding-top: 20px;
-                padding-right: 10px;
-                font-size: 24px;
-                background: #d6c6b2;
-                -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%);
-                clip-path: polygon(0 100%, 100% 0, 100% 100%);
-                -webkit-box-shadow: none;
-                box-shadow: none;
-                position: absolute;
-                bottom: 32px;
-                right: 25px;
-            }
-            /* =====***** footer section css ends *****===== */
-            /* =====***** copyright section css ends *****===== */
-            
-            #copyright-bg {
-                background: #dddddd;
-                margin-top: 30px;
-            }
-            
-            #copyright-bg .footer-copyright p {
-                font-size: 14px;
-                color: #222222;
-                font-family: "Open Sans", sans-serif;
-                font-weight: 400;
-                line-height: 24px;
-                text-transform: capitalize;
-                margin-bottom: 0 !important;
-                padding: 20px 0;
-            }
-            /* =====***** copyright section css ends *****===== */
+/* =====***** common css starts *****===== */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: center;
+}
+/* =====***** common css ends *****===== */
+/* =====***** navbar section css starts *****===== */
+.navbar {
+  position: absolute;
+  top: 30px;
+  z-index: 9999999999;
+  width: 100%;
+}
+.navbar .nav-content .navbar-nav .nav-item .nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  color: #222;
+  transition: all linear 0.5s;
+}
+.navbar .nav-content .navbar-nav .nav-item .nav-link:hover {
+  color: black;
+  background: #d6c6b2;
+}
+/* =====***** navbar section css ends *****===== */
+/* =====***** banner section css starts *****===== */
+#banner-bg {
+  background: #e6eef0;
+}
+#banner-bg .banner-content {
+  position: relative;
+}
+#banner-bg .banner-content .item-3 {
+  text-align: right;
+  position: absolute;
+  top: 260px;
+  right: 300px;
+}
+#banner-bg .banner-content .item-3 p {
+  font-size: 20px;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#banner-bg .banner-content .item-3 h3 {
+  font-size: 102px;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#banner-bg .banner-content .item-3 h2 {
+  font-size: 85px;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#banner-bg .banner-content .item-3 a {
+  font-size: 16px;
+  color: #d6c6b2;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding: 15px 20px;
+  border: 1px solid #d6c6b2;
+  margin-top: 40px;
+  display: inline-block;
+  transition: all linear 0.4s;
+}
+#banner-bg .banner-content .item-3 a:hover {
+  background: #d6c6b2;
+  color: #222222;
+}
+#banner-bg .banner-content .item-3 a:last-of-type {
+  margin-left: 30px;
+  padding: 15px 40px;
+}
+/* =====***** banner section css ends *****===== */
+/* =====***** about section css starts *****===== */
+#about-bg {
+  padding-top: 150px;
+}
+#about-bg .item-2 .about-text {
+  padding-top: 25px;
+}
+#about-bg .item-2 .about-text .about-head h4 {
+  font-size: 32px;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#about-bg .item-2 .about-text .about-details p {
+  font-size: 14px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#about-bg .item-2 .about-text .about-details p:first-of-type {
+  padding-top: 65px;
+}
+#about-bg .item-2 .about-text .about-details p:last-of-type {
+  padding-top: 35px;
+  padding-bottom: 60px;
+}
+#about-bg .item-2 .about-text .about-social .sub-head h5 {
+  font-size: 24px;
+  color: "Abril Fatface", cursive;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#about-bg .item-2 .about-text .about-social .icon ul {
+  padding-left: 0 !important;
+  display: flex;
+  margin-top: 30px;
+}
+#about-bg .item-2 .about-text .about-social .icon ul li {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #353535;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 20px;
+  transition: all linear 0.5s;
+}
+#about-bg .item-2 .about-text .about-social .icon ul li:hover {
+  background: #d6c6b2;
+  box-shadow: 3px 3px 5px #d6c6b2;
+}
+#about-bg .item-2 .about-text .about-social .icon ul li a {
+  color: #222222;
+  font-size: 22px;
+}
+/* =====***** about section css ends *****===== */
+/* =====***** service section css starts *****===== */
+#service-bg {
+  background: #f8f8f8;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  position: relative;
+}
+#service-bg .prevarrow {
+  font-size: 35px;
+  position: absolute;
+  left: 45%;
+  bottom: -70px;
+}
+#service-bg .nextarrow {
+  font-size: 35px;
+  position: absolute;
+  right: 45%;
+  bottom: -70px;
+}
+#service-bg .service-head h4 {
+  font-size: 32px;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-bottom: 60px;
+}
+#service-bg .service-slider .item {
+  text-align: center;
+  margin-top: 50px;
+}
+#service-bg .service-slider .item .sub-head h5 {
+  font-size: 22px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-top: 30px;
+}
+#service-bg .service-slider .item .box-details p {
+  font-size: 14px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding-top: 32px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+/* =====***** service section css ends *****===== */
+/* =====***** portfolio section css starts *****===== */
+#portfolio-bg {
+  margin-top: 100px;
+}
+#portfolio-bg .filter-item .sub-head h5 {
+  font-size: 32px;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#portfolio-bg .filter-item .filtter-section ul {
+  padding-left: 0 !important;
+  padding-top: 60px;
+}
+#portfolio-bg .filter-item .filtter-section ul li {
+  font-size: 20px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 64px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+#portfolio-bg .item-1 {
+  margin-bottom: 30px;
+}
+#portfolio-bg .item-2 {
+  margin-bottom: 30px;
+}
+#portfolio-bg .item {
+  position: relative;
+  overflow: hidden;
+}
+#portfolio-bg .item:hover .overlay {
+  top: 0;
+}
+#portfolio-bg .item .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(218, 188, 172, 0.85);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all linear 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#portfolio-bg .item .overlay .text {
+  text-align: center;
+}
+#portfolio-bg .item .overlay .text a {
+  font-size: 22px;
+  color: white;
+}
+#portfolio-bg .item .overlay .text a i {
+  width: 50px;
+  height: 50px;
+  background: #222222;
+  border: 1px solid #353535;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 150px;
+}
+#portfolio-bg .item .overlay .text p {
+  font-size: 22px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#portfolio-bg .item .overlay .text p:first-of-type {
+  padding-top: 125px;
+}
+#portfolio-bg .item .overlay .text p:last-of-type {
+  font-size: 16px;
+  padding-top: 20px;
+}
+#portfolio-bg .portfolio-footer a {
+  display: inline-block;
+  font-size: 14px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  background: #d6c6b2;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border: 2px solid white;
+  margin-top: 60px;
+  transition: all linear 0.5s;
+}
+#portfolio-bg .portfolio-footer a:hover {
+  border: 2px solid #d6c6b2;
+  background: transparent;
+}
+/* =====***** portfolio section css ends *****===== */
+/* =====***** testimonials section css starts *****===== */
+#testimonials-bg {
+  background: url(../images/testimonials-bg.png) no-repeat center / cover;
+  padding: 60px 0px 150px 0px;
+  margin-top: 60px;
+  position: relative;
+  z-index: 1;
+}
+#testimonials-bg:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#testimonials-bg .prevarrow {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  left: 45%;
+  bottom: -70px;
+}
+#testimonials-bg .nextarrow {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  right: 45%;
+  bottom: -70px;
+}
+#testimonials-bg .slick-dots {
+  position: absolute;
+  left: 50%;
+  bottom: -100px;
+  transform: translateY(50%);
+  display: flex;
+  padding-left: 0 !important;
+}
+#testimonials-bg .slick-dots li {
+  margin-right: 18px;
+}
+#testimonials-bg .slick-dots li button {
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+#testimonials-bg .slick-dots li.slick-active {
+  border-radius: 50%;
+  transform: scale(1.5);
+  background-color: #d6c6b2;
+}
+#testimonials-bg .testimonials-head h4 {
+  font-size: 32px;
+  color: #d6c6b2;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-bottom: 60px;
+}
+#testimonials-bg .item .box-details {
+  padding-left: 30px;
+}
+#testimonials-bg .item .box-details h5 {
+  font-size: 20px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#testimonials-bg .item .box-details p:first-of-type {
+  font-size: 16px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#testimonials-bg .item .box-details p:last-of-type {
+  font-size: 16px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+}
+#testimonials-bg .item .box-details ul li {
+  color: white;
+  font-size: 18px;
+  padding: 5px 5px 0 0;
+}
+/* =====***** testimonials section css ends *****===== */
+/* =====***** pricing section css starts *****===== */
+#pricing-bg {
+  margin-top: 100px;
+}
+#pricing-bg .pricing-head h4 {
+  font-size: 32px;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-bottom: 60px;
+}
+#pricing-bg .item {
+  background: #f1f1f1;
+  text-align: center;
+  transition: all linear 0.5s;
+}
+#pricing-bg .item:hover {
+  background: #d6c6b2;
+}
+#pricing-bg .item:hover .box-footer a {
+  box-shadow: 0px 0px 5px #f3ac29;
+}
+#pricing-bg .item .box-head h5 {
+  font-size: 18px;
+  color: #222222;
+  background: #dddd;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding: 10px 0;
+}
+#pricing-bg .item .box-details {
+  margin-top: 20px;
+}
+#pricing-bg .item .box-details p {
+  font-size: 60px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-top: 20px;
+  position: relative;
+}
+#pricing-bg .item .box-details p span {
+  font-size: 24px;
+}
+#pricing-bg .item .box-details p:after {
+  content: "";
+  width: 170px;
+  height: 2px;
+  background: #d6c6b2;
+  position: absolute;
+  top: 85px;
+  left: 40px;
+  transform: translateX(50%);
+}
+#pricing-bg .item .box-details ul {
+  padding-left: 0;
+  padding-top: 48px;
+}
+#pricing-bg .item .box-details ul li {
+  font-size: 14px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+}
+#pricing-bg .item .box-footer a {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 18px;
+  color: #222222;
+  border: 1px solid #222222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+/* =====***** pricing section css ends *****===== */
+/* =====***** blog section css starts *****===== */
+#blog-bg {
+  background: #f1f1f1;
+  margin-top: 100px;
+  padding: 60px 0px;
+}
+#blog-bg .blog-head h4 {
+  font-size: 32px;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-bottom: 60px;
+}
+#blog-bg .item-1 {
+  margin-bottom: 20px;
+}
+#blog-bg .blog-item {
+  background: #dddddd;
+}
+#blog-bg .blog-item:hover {
+  background: #d6c6b2;
+  transition: all linear 0.5s;
+}
+#blog-bg .blog-item .img-area {
+  position: relative;
+  overflow: hidden;
+}
+#blog-bg .blog-item .img-area img {
+  height: 270px;
+}
+#blog-bg .blog-item .img-area:hover .overlay {
+  top: 0;
+}
+#blog-bg .blog-item .img-area .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(214, 198, 178, 0.7);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  text-align: right;
+  transition: all linear 0.5s;
+}
+#blog-bg .blog-item .img-area .overlay p {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+  padding-right: 20px;
+}
+#blog-bg .blog-item .text-area {
+  padding-left: 30px;
+}
+#blog-bg .blog-item .text-area .text-head {
+  padding-top: 30px;
+  display: flex;
+}
+#blog-bg .blog-item .text-area .text-head i {
+  font-size: 18px;
+  color: black;
+  line-height: 24px;
+}
+#blog-bg .blog-item .text-area .text-head p {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+#blog-bg .blog-item .text-area .text-head ul {
+  display: flex;
+  padding-left: 150px;
+}
+#blog-bg .blog-item .text-area .text-head ul li {
+  font-size: 16px;
+  padding-right: 30px;
+  line-height: 24px;
+}
+#blog-bg .blog-item .text-area .sub-head h5 {
+  font-size: 20px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#blog-bg .blog-item .text-area .sub-head p {
+  font-size: 14px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding-right: 20px;
+}
+#blog-bg .blog-item .text-area .box-footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+#blog-bg .blog-item .text-area .box-footer ul li:first-of-type a {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+#blog-bg .blog-item .text-area .box-footer ul li:last-of-type a {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding-right: 40px;
+}
+#blog-bg .item-2 .text-area .text-head ul {
+  padding-left: 120px;
+}
+#blog-bg .item-2 .box-footer ul {
+  padding-top: 20px;
+}
+#blog-bg .item-2 .box-footer ul li {
+  padding-bottom: 20px;
+}
+#blog-bg .blog-footer a {
+  display: inline-block;
+  font-size: 14px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  background: #d6c6b2;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border: 2px solid #f1f1f1;
+  margin-top: 60px;
+  transition: all linear 0.5s;
+}
+#blog-bg .blog-footer a:hover {
+  border: 2px solid #d6c6b2;
+  background: transparent;
+}
+/* =====***** blog section css ends *****===== */
+/* =====***** footer section css starts *****===== */
+#footer-bg {
+  margin-top: 95px;
+}
+#footer-bg .footer-item .box-head h5 {
+  font-size: 20px;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-bottom: 35px;
+}
+#footer-bg .footer-item ul {
+  padding-left: 0 !important;
+}
+#footer-bg .footer-item ul:first-of-type li {
+  padding-bottom: 10px;
+}
+#footer-bg .footer-item ul:last-of-type {
+  display: flex;
+}
+#footer-bg .footer-item ul:last-of-type li {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d6c6b2;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  transition: all linear 0.5s;
+}
+#footer-bg .footer-item ul:last-of-type li:hover {
+  background: #d6c6b2;
+}
+#footer-bg .footer-item ul:last-of-type li:hover a {
+  color: white;
+}
+#footer-bg .footer-item ul:last-of-type li a {
+  color: #222222;
+  transition: all linear 0.5s;
+}
+#footer-bg .footer-item .sub-head h5 {
+  font-size: 20px;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding-top: 65px;
+  padding-bottom: 30px;
+}
+#footer-bg form {
+  background: #f1f1f1;
+  position: relative;
+  padding-left: 25px;
+  padding-bottom: 30px;
+}
+#footer-bg form p {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #222222;
+  padding: 30px 0;
+}
+#footer-bg form .text-btn {
+  width: 400px;
+  margin-right: 10px;
+  line-height: 30px;
+}
+#footer-bg form .email-btn {
+  width: 400px;
+  line-height: 30px;
+}
+#footer-bg form .textarea {
+  margin-top: 30px;
+  width: 810px;
+  height: 150px;
+  padding: 10px 0 0 10px;
+  text-transform: capitalize;
+}
+#footer-bg form .submit-btn {
+  width: 60px;
+  height: 60px;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 10px;
+  font-size: 24px;
+  background: #d6c6b2;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  box-shadow: none;
+  position: absolute;
+  bottom: 32px;
+  right: 21px;
+}
+/* =====***** footer section css ends *****===== */
+/* =====***** copyright section css ends *****===== */
+#copyright-bg {
+  background: #dddddd;
+  margin-top: 30px;
+}
+#copyright-bg .footer-copyright p {
+  font-size: 14px;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  padding: 20px 0;
+}
+/* =====***** copyright section css ends *****===== */
