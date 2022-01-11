@@ -271,18 +271,23 @@ img {
       }
     }
 
-    .filtter-section {
+    .filter-menu {
       ul {
         padding-left: 0 !important;
         padding-top: 60px;
+        display: inline-block;
         li {
-          font-size: 20px;
+          button {
+            font-size: 20px;
           color: @black;
           font-family: @opensans;
           font-weight: 600;
           line-height: 64px;
           text-transform: capitalize;
-          cursor: pointer;
+          &.active {
+            background: #dddddd;
+          }
+          }
         }
       }
     }
@@ -296,6 +301,7 @@ img {
   .item {
     position: relative;
     overflow: hidden;
+    margin-bottom: 20px;
 
     &:hover {
       .overlay {
